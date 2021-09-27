@@ -3,9 +3,9 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Academic # Website name
+title: Zhenling Jiang  # Website name
 baseurl: 'https://example.com/' # Website URL
-copyright: '' # Footer text, e.g. '© {year} Me'
+copyright: 'Copyright © 2021 Zhenling Jiang &middot; Last update in Sep 2021 &middot; Powered by the <a href="https://wowchemy.com" target="_blank" rel="noopener">Academic theme</a> for<a href="https://gohugo.io/"> Hugo</a>.' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
