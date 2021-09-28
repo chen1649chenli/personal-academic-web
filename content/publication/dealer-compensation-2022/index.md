@@ -3,7 +3,7 @@
 
 title: "Designing Dealer Compensation in the Auto Loan Market: Implications from a Policy Experiment"
 authors: 
- - Zhenling Jiang
+ - Admin
  - Yanhao Wei
  - Tat Chan
  - Naser Hamdi

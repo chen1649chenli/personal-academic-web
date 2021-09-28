@@ -5,7 +5,7 @@ title: How Does Bonus Payment Affect Auto Loan Demand and Delinquency?
 subtitle: ''
 summary: ''
 authors:
-- Zhenling Jiang
+- Admin
 - Dennis J. Zhang
 - Tat Chen
 tags: ["auto loan demand","bonus","consumer financial decision making","delinquency risk"]
@@ -46,8 +46,10 @@ abstract: This article studies how receiving a bonus changes consumers’ demand
   decisions and have important implications for financial institutions on when demand
   for auto loans and the associated risk arise.
 publication: '***Journal of Marketing Research***, 58 (3), 476-496'
-url_pdf: https://doi.org/10.1177/00222437211009214
+doi: https://doi.org/10.1177/00222437211009214
 links:
+- name: 'Abstract'
+  url: publication/bonus-paper-2021/index.html 
 - name: 'The New York Times'
-  url: https://www.nytimes.com/2020/02/12/smarter-living/how-to-get-out-of-credit-card-debt.html
+  url: https://www.nytimes.com/2020/02/12/smarter-living/how-to-get-out-of-credit-card-debt.html   
 ---

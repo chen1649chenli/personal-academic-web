@@ -6,7 +6,7 @@ title: 'An Empirical Bargaining Model with Left-digit Bias: A Study on Auto Loan
 subtitle: ''
 summary: ''
 authors:
-- Zhenling Jiang
+- Admin
 tags: ["bargaining","left-digit bias","auto finance","dealer compensation"]
 categories: []
 date: 2021-04-01
@@ -14,7 +14,7 @@ lastmod: 2021-04-26T14:23:04-04:00
 featured: false
 draft: false
 
-url_pdf: https://doi.org/10.1287/mnsc.2020.3923
+doi: https://doi.org/10.1287/mnsc.2020.3923
 url_code:
 url_dataset:
 url_poster:
@@ -22,6 +22,9 @@ url_project:
 url_slides:
 url_source:
 url_video:
+links:
+- name: 'Abstract'
+  url: publication/bargaining-model-paper/index.html 
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

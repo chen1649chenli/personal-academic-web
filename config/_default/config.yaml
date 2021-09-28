@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Zhenling Jiang  # Website name
-baseurl: 'https://example.com/' # Website URL
+baseurl: 'https://jiangzhenling.com/' # Website URL
 copyright: 'Copyright © 2021 Zhenling Jiang &middot; Last update in Sep 2021 &middot; Powered by the <a href="https://wowchemy.com" target="_blank" rel="noopener">Academic theme</a> for<a href="https://gohugo.io/"> Hugo</a>.' # Footer text, e.g. '© {year} Me'
 
 ############################
@@ -66,3 +66,24 @@ related:
       weight: 100
     - name: categories
       weight: 70
+
+deployment:
+  order:
+    - .jpg$
+    - .gif$
+  targets:
+    - name: 'mydeployment'
+      URL: 's3://jiangzhenling.com?region=us-west-2'
+      cloudFrontDistributionID: E5S5TTCOVH2M
+  matchers:
+    - pattern: ^.+\.(js|css|svg|ttf)$
+      cacheControl: 'max-age=31536000, no-transform, public'
+      gzip: true
+    - pattern: ^.+\.(png|jpg)$
+      cacheControl: 'max-age=31536000, no-transform, public'
+      gzip: false
+    - pattern: ^sitemap\.xml$
+      contentType: application/xml
+      gzip: true
+    - pattern: ^.+\.(html|xml|json)$
+      gzip: true

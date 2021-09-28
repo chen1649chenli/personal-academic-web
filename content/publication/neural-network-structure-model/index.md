@@ -4,7 +4,7 @@
 title: "Estimating Parameters of Structural Models Using Neural Networks"
 authors: 
   - Yanhao Wei
-  - Zhenling Jiang
+  - Admin
 
 date: ""
 doi: ""

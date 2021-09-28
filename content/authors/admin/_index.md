@@ -59,7 +59,10 @@ social:
   link: 'mailto:zhenling@wharton.upenn.edu'
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/zhenlingj    
+  link: https://twitter.com/zhenlingj
+- icon: cv
+  icon_pack: ai
+  link: uploads/cv.pdf       
 
 # Link to a PDF of your resume/CV.
 # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.toml`, 

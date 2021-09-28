@@ -4,7 +4,7 @@
 title: "Consumer Online Search and Purchase with Endogenous Channel Choice"
 authors: 
   - Shuo Zhang
-  - Zhenling Jiang
+  - Admin
   - Hai Che
 date: 
 doi: ""
