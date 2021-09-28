@@ -33,7 +33,7 @@ education:
   - course: Ph.D. in Marketing
     institution: Washington University in St. Louis
     year: 2013 - 2019
-  - course: M.A. in International Economics and Financ
+  - course: M.A. in International Economics and Finance
     institution:  Brandeis University
     year: 2006 - 2008
   - course: B.A. in Economics
