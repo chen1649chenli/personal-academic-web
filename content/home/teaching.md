@@ -36,7 +36,7 @@ experience:
 
   - title: Data Driven Marketing
     company: Georgia State University, J. Mack Robinson College of Business
-    location: Undergraduate
+    location: Graduate
     date_start: '2020-01-01'
     date_end: '2020-05-31'
 

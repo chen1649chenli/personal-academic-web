@@ -46,7 +46,7 @@ abstract: 'We study the impact of launching a non-tiered customer loyalty progra
   who experience reductions in attrition rates after joining the program. The impact
   of the loyalty program on spending per visit is negligible.'
 publication: '***Marketing Science***, 40 (3), 508-526'
-doi: https://pubsonline.informs.org/doi/10.1287/mksc.2020.1268
+doi: https://doi.org/10.1287/mksc.2020.1268
 links:
 - name: 'Abstract'
   url: publication/loyalty-program-2021/index.html 
