@@ -8,6 +8,7 @@ authors:
  - Tat Chan
  - Naser Hamdi
 date: ""
+show_date: false
 doi: ""
 
 # Schedule page publish date (NOT publication's date).

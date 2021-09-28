@@ -7,6 +7,7 @@ authors:
   - Admin
 
 date: ""
+show_date: false
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
