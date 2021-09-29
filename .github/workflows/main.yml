@@ -22,12 +22,12 @@ jobs:
     - name: Setup Hugo # <-- installing Hugo on virtual machine
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.74.3'
+        hugo-version: '0.88.1'
         extended: true
 
     # Builds jiangzhenling.com repo
     - name: Build Hugo # <-- Biulding website and adding files to ./public
-      run: hugo --minify
+      run: hugo
 
     # Deploys built website to S3
     - name: Deploy to S3 # <-- use build-in deploy function to add files to S3 and create invalidations
