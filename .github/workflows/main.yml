@@ -33,5 +33,5 @@ jobs:
     - name: Deploy to S3 # <-- use build-in deploy function to add files to S3 and create invalidations
       run: hugo deploy --force --maxDeletes -1 --invalidateCDN
       env:
-        AWS_ACCESS_KEY_ID: ${{ WOWCHEMY_USERNAME }} # <-- Change to the name you gave the AWS key secret
-        AWS_SECRET_ACCESS_KEY: ${{ WOWCHEMY_PASSWORD }} # <-- Change to the name you gave the AWS passwd secret
+        AWS_ACCESS_KEY_ID: ${{ wowchemy_username }} # <-- Change to the name you gave the AWS key secret
+        AWS_SECRET_ACCESS_KEY: ${{ wowchemy_password }} # <-- Change to the name you gave the AWS passwd secret
