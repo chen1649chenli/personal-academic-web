@@ -59,5 +59,5 @@ abstract: 'This paper studies price bargaining when both parties have left-digit
   left-digit bias, which can both increase and decrease the payments. Overall, bias
   from both sides leads to a $33 increase in average payment per loan compared with
   a benchmark case with no bias.'
-publication: '(Forthcoming) ***Management Science***'
+publication: 'Forthcoming at ***Management Science***'
 ---
