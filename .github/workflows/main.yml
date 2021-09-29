@@ -22,16 +22,16 @@ jobs:
     - name: Setup Hugo # <-- installing Hugo on virtual machine
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.74.3'
+        hugo-version: '0.88.1'
         extended: true
 
     # Builds jiangzhenling.com repo
     - name: Build Hugo # <-- Biulding website and adding files to ./public
-      run: hugo --minify
+      run: hugo
 
     # Deploys built website to S3
     - name: Deploy to S3 # <-- use build-in deploy function to add files to S3 and create invalidations
       run: hugo deploy --force --maxDeletes -1 --invalidateCDN
       env:
-        AWS_ACCESS_KEY_ID: WOWCHEMY_USERNAME # <-- Change to the name you gave the AWS key secret
-        AWS_SECRET_ACCESS_KEY: WOWCHEMY_PASSWORD # <-- Change to the name you gave the AWS passwd secret
+        AWS_ACCESS_KEY_ID: ${{ secrets.WOWCHEMY_USERNAME }} # <-- Change to the name you gave the AWS key secret
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.WOWCHEMY_PASSWORD }} # <-- Change to the name you gave the AWS passwd secret
