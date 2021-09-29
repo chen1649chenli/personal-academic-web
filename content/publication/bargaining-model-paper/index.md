@@ -10,6 +10,7 @@ authors:
 tags: ["bargaining","left-digit bias","auto finance","dealer compensation"]
 categories: []
 date: 2021-04-01
+show_date: false
 lastmod: 2021-04-26T14:23:04-04:00
 featured: false
 draft: false
