@@ -11,7 +11,7 @@ authors:
 - Raphael Thomadsen
 tags: ["customer loyalty", "customer lifetime value"]
 categories: []
-date: '2021-02-01'
+date: '2021-03-01'
 lastmod: 2021-09-26T14:23:03-04:00
 featured: false
 draft: false

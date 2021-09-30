@@ -9,7 +9,7 @@ authors:
 - Admin
 tags: ["bargaining","left-digit bias","auto finance","dealer compensation"]
 categories: []
-date: 2021-04-01
+date: "2021-04-29"
 show_date: false
 lastmod: 2021-04-26T14:23:04-04:00
 featured: false
@@ -41,7 +41,7 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-publishDate: '2021-09-26T18:23:03.896256Z'
+publishDate: '2021-04-29T18:23:03.896256Z'
 publication_types:
 - '2'
 abstract: 'This paper studies price bargaining when both parties have left-digit bias
