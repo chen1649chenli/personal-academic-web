@@ -7,7 +7,7 @@ subtitle: ''
 summary: ''
 authors:
 - Admin
-- Tat Chen
+- Tat Chan
 - Hai Che
 - Youwei Wang
 tags: ["consumer search", "retargeting", "GHK estimator", "online shopping"]

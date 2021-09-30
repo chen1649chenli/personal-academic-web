@@ -7,7 +7,7 @@ summary: ''
 authors:
 - Admin
 - Dennis J. Zhang
-- Tat Chen
+- Tat Chan
 tags: ["auto loan demand","bonus","consumer financial decision making","delinquency risk"]
 categories: []
 date: '2021-04-27'

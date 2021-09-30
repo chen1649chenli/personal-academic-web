@@ -3,7 +3,7 @@
 
 title: "Digitization of Employment Verification and Inclusive Access to Credit: Evidence from Equifax"
 authors:
-- Tat Chen
+- Tat Chan
 - Naser Hamdi
 - Xiang Hui
 - Admin
