@@ -7,7 +7,7 @@ authors:
 - Naser Hamdi
 - Xiang Hui
 - Admin
-date: "2021-09-05"
+date: "2021-10-05"
 show_date: false
 doi: ""
 
@@ -21,7 +21,7 @@ publishDate: 2020-09-05
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Conditional Acceptance at ***Marketing Science***"
+publication: "Forthcoming at ***Marketing Science***"
 publication_short: ""
 
 abstract: "What is the value of verified employment data in consumer lending? We study this question using a data set covering all employment verification inquiries to Equifax. Using a difference-in-differences approach, we analyze the changes in applicants' loan outcomes after their employers join Equifax's digital verification system, which provides lenders with an efficient way of accessing the (employer-) verified employment data in auto loan applications. Holding the employment status constant, we find that the availability of digitally verified data significantly expands credit access: the loan origination rate increases by 35.5% on average, and is more significant among deep subprime (146%) and subprime consumers (44%). The interest rates charged on these loans rise only slightly. The expanded credit access also benefits lenders, with an estimated 19.6% increase in profit. This is because the benefit of the market expansion effect dominates the cost of a higher delinquency risk among the expanded loan portfolio. Our results suggest that, besides seeking new data sources, managers and policymakers should also consider ways to extract more value from existing data. The economic benefit of doing so can be sizable without additional privacy concerns perceived by the consumers."
