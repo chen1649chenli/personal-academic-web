@@ -21,7 +21,7 @@ publishDate: 2020-09-05
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Accepted at ***Marketing Science***"
+publication: 'Published Online ***Management Science***'
 publication_short: ""
 
 abstract: "What is the value of verified employment data in consumer lending? We study this question using a data set covering all employment verification inquiries to Equifax. Using a difference-in-differences approach, we analyze the changes in applicants' loan outcomes after their employers join Equifax's digital verification system, which provides lenders with an efficient way of accessing the (employer-) verified employment data in auto loan applications. Holding the employment status constant, we find that the availability of digitally verified data significantly expands credit access: the loan origination rate increases by 35.5% on average, and is more significant among deep subprime (146%) and subprime consumers (44%). The interest rates charged on these loans  rise only slightly. The expanded credit access also benefits lenders, with an estimated 19.6% increase in profit. This is because the benefit of the market expansion effect dominates the cost of a higher delinquency risk among the expanded loan portfolio. Our results suggest that, besides seeking new data sources, managers and policy makers should also consider ways to extract more value from existing data."
@@ -33,10 +33,7 @@ tags: [""]
 categories: []
 featured: false
 
-links:
-- name: "SSRN"
-  url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3556554'
-
+doi: https://doi.org/10.1287/mksc.2021.1335
 url_pdf:
 url_code:
 url_dataset:
@@ -45,6 +42,9 @@ url_project:
 url_slides:
 url_source:
 url_video:
+links:
+- name: 'Abstract'
+  url: publication/employment-verification-2021/index.html 
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
