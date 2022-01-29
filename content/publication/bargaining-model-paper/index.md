@@ -9,7 +9,7 @@ authors:
 - Admin
 tags: ["bargaining","left-digit bias","auto finance","dealer compensation"]
 categories: []
-date: "2021-04-29"
+date: "2022-01-01"
 show_date: false
 lastmod: 2021-04-26T14:23:04-04:00
 featured: false
@@ -60,5 +60,5 @@ abstract: 'This paper studies price bargaining when both parties have left-digit
   left-digit bias, which can both increase and decrease the payments. Overall, bias
   from both sides leads to a $33 increase in average payment per loan compared with
   a benchmark case with no bias.'
-publication: 'Published Online ***Management Science***'
+publication: '***Management Science***, 68 (1), 442–465'
 ---
