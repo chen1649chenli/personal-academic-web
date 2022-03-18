@@ -81,6 +81,6 @@ email: "zhenling@wharton.upenn.edu"
 highlight_name: true
 ---
 
-I utilize theory-driven empirical models in my research. My current research studies various questions in the consumer financial market, such as behavioral biases in financial decision making and financial inclusion enabled by new technology. I am also interested in how consumer search for information and the value of loyalty program.
+Zhenling Jiang is an Assistant Professor of Marketing at the Wharton School, University of Pennsylvania. She received her Ph.D. degree in marketing at the John M. Olin Business School, Washington University in St. Louis. Zhenling utilizes various empirical methods, including structural models, causal inference, and machine learning, in her research. On the substantive side, she is particularly interested in the consumer financial market. Many of her current projects involve using economic tools to study consumer decision-making and market design in the auto loan industry. Some examples include designing dealer compensation in the auto loan market, identifying behavioral bias when obtaining auto loans, and quantifying the impact of digitization in credit access.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/cv.pdf" "newtab" >}}Curriculum Vitae{{< /staticref >}}.
