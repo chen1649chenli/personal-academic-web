@@ -7,21 +7,21 @@ authors:
  - Yanhao Wei
  - Tat Chan
  - Naser Hamdi
-date: ""
+date: "2022-11-06"
 show_date: false
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 1111-01-03
+publishDate: 2022-11-06
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Minor revision at *Marketing Science*"
+publication: "*Marketing Science*, forthcoming"
 publication_short: ""
 
 abstract: "We study the design of dealer compensation policy in the indirect auto lending market, where most lenders give dealers the discretion to mark up interest rates. To protect consumers from potential discrimination by the dealer discretion, several banks switched to a new compensation scheme by fixing the markup as a percentage of the loan amount. We document that the market share of these banks responded positively (negatively) in the consumer segment where the policy increased (decreased) the interest rate — a reversal of the usual demand curve — which highlights the influence of dealers on the bank choice for financing loans. Accordingly, we develop and estimate an empirical model that allows for dealer–consumer bargaining, which depends on both the dealers' and the consumers' utility. Based on the estimation results, we explore alternative compensation policies that also eliminate dealers' discretion. We show that a lump-sum compensation that pays dealers a fixed dollar amount per loan dominates the current policy for the banks in terms of gaining market share. This is because dealers' equivalent markup rates would better align with their bargaining power. Our study highlights the importance of accounting for the interests and bargaining power of middlemen in designing a compensation scheme."
