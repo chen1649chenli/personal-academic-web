@@ -27,7 +27,7 @@ experience:
     location: MBA and Undergraduate
     date_start: '2020-09-01'
     date_end: ''
-    description: 'Wharton Teaching Excellence Award - 2020.'
+    description: 'Wharton Teaching Excellence Award - 2020, 2021.'
         
   - title: Introduction to Structural Modeling
     company: Georgia State University, J. Mack Robinson College of Business
