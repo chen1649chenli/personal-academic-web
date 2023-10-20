@@ -3,7 +3,8 @@
 
 title: "TV Advertising Effectiveness with Racial Minority Representation: Evidence from the Mortgage Market."
 authors: 
-  - with Donggwan Kim
+  - Donggwan Kim
+  - Admin
   - Raphael Thomadsen
 
 date: ""
@@ -11,7 +12,7 @@ show_date: false
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 1111-01-03
+publishDate: 1111-01-00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
