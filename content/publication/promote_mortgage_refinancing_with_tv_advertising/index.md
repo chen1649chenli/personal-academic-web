@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Promote Mortgage Refinancing with TV Advertising."
+title: "The Effects of TV Advertising and Ad Content on Consumer Financial Decisions: Evidence from Mortgage Refinancing."
 authors: 
   - with Donggwan Kim
 
