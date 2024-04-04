@@ -3,20 +3,20 @@
 
 title: "The Effects of TV Advertising and Ad Content on Consumer Financial Decisions: Evidence from Mortgage Refinancing."
 authors: 
-  - with Donggwan Kim
-
+  - Admin
+  - Donggwan Kim
 date: ""
 show_date: false
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 1111-01-03
+publishDate: 1110-01-01
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["9"]
+publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
 publication: ""
@@ -39,6 +39,8 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 links:
+- name: "SSRN"
+  url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4782878'
 url_code:
 url_dataset:
 url_poster:
