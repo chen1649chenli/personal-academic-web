@@ -28,7 +28,7 @@ abstract: "Machine learning tools such as neural networks are increasingly appli
 # Summary. An optional shortened abstract.
 summary: ""
 
-tags: []
+tags: ["neural networks", "machine learning", "structural estimation", "redundant moments", "simulation burden", "sequential search"]
 categories: []
 featured: false
 

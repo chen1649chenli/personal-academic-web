@@ -29,7 +29,7 @@ abstract: "We study the design of dealer compensation policy in the indirect aut
 # Summary. An optional shortened abstract.
 summary: ""
 
-tags: ["auto loan", "interest-rate markup", "dealer compensation", "consumer protection", "Nash bargaining"]
+tags: ["Auto Loan", "Interest-rate Markup", "Dealer Compensation", "Consumer Protection", "Nash Bargaining"]
 categories: []
 featured: false
 
