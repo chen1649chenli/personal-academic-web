@@ -28,7 +28,7 @@ abstract: "Word-of-mouth (WOM) has proven a valuable marketing tool for acquirin
 # Summary. An optional shortened abstract.
 summary: ""
 
-tags: []
+tags: ["Referrals", "Word-of-Mouth", "Customer Value", "Social Motives"]
 categories: []
 featured: false
 
