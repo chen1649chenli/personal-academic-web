@@ -30,7 +30,7 @@ abstract: "What is the value of verified employment data in consumer lending? We
 # Summary. An optional shortened abstract.
 summary: ""
 
-tags: [""]
+tags: ["Inclusive Access to Credit", "Value of Verified Data", "Digital Verification"]
 categories: []
 featured: false
 
