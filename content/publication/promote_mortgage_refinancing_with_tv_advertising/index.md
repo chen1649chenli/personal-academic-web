@@ -19,7 +19,7 @@ publishDate: 1110-01-01
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Under review"
+publication:
 publication_short: ""
 
 abstract: "It is well-documented that many mortgage borrowers make sub-optimal financial decisions by failing to refinance when interest rates are low, despite large potential savings. This paper studies the effectiveness of TV advertising on mortgage refinancing decisions. Using six years of mortgage origination and advertising data, we quantify the impact of TV advertising on consumers' decisions to refinance their mortgages, as well as their choice of lenders. We find that TV advertising significantly increases the category-level demand for refinancing (i.e., market expansion effect) and influences the choice of lenders (i.e., business stealing effect). Interestingly, advertising can also benefit competing lenders through the market expansion effect. Beyond the analysis of ad quantity, we investigate the heterogeneous effects of ad content by leveraging zero-shot classification with a pre-trained large language model. We find that ads that highlight low mortgage rates and potential savings are the most effective in increasing both the category and brand-level demand. For policymakers and mortgage lenders, our findings suggest that advertising can be an effective tool to promote refinancing activities and offer practical guidance for designing advertising content."
