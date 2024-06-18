@@ -42,6 +42,8 @@ featured: false
 links:
 - name: "SSRN"
   url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4214781'
+- name: "Harvard Business Review"
+  url: 'https://hbr.org/2024/06/research-customer-referrals-are-contagious'  
 url_code:
 url_dataset:
 url_poster:

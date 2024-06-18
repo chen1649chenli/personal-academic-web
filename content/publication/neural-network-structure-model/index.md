@@ -42,7 +42,7 @@ featured: false
 links:
 - name: "SSRN"
   url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3496098#'
-url_code:
+url_code: https://github.com/nnehome/nne-matlab-code
 url_dataset:
 url_poster:
 url_project:
