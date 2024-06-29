@@ -8,7 +8,7 @@ authors:
 
 date: "2024-03-09"
 show_date: false
-doi: ""
+doi: "https://doi.org/10.1177/00222437241257886"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2024-04-22T02:39:57.795469Z'
@@ -40,8 +40,6 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 links:
-- name: "SSRN"
-  url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4214781'
 - name: "Harvard Business Review"
   url: 'https://hbr.org/2024/06/research-customer-referrals-are-contagious'  
 url_code:
