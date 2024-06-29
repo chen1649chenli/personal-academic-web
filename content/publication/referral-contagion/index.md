@@ -40,6 +40,8 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 links:
+- name: 'Abstract'
+  url: publication/referral-contagion/index.html 
 - name: "Harvard Business Review"
   url: 'https://hbr.org/2024/06/research-customer-referrals-are-contagious'  
 url_code:
