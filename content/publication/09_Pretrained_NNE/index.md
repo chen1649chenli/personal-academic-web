@@ -1,17 +1,16 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "A Pre-Trained Estimator for Consumer Search Model."
+title: "The Effects of TV Advertising and Ad Content on Consumer Financial Decisions: Evidence from Mortgage Refinancing."
 authors: 
-  - Yanhao 'Max' Wei
   - Admin
-
+  - Donggwan Kim
 date: ""
 show_date: false
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 1111-01-03
+publishDate: 1110-01-01
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -20,10 +19,10 @@ publishDate: 1111-01-03
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: ''
+publication:
 publication_short: ""
 
-abstract: "We explore pre-training estimators for structural econometric models. The estimator is "pre-trained" in the sense that most computations and effort occur once during its construction. Subsequent applications of it to estimate different datasets require little computation costs or effort. The estimation relies on a neural net to recognize structural model's parameter from data patterns. This paper focuses on a sequential search model that is known to be hard to estimate. We evaluate our pre-trained estimator on 11 real datasets. The estimation takes seconds to run and shows high accuracy. We provide it at pnnehome.github.io. More generally, pre-trained estimators make structural models more accessible and easier to apply. They can also facilitate privacy-preserving estimation because they need only aggregate data patterns."
+abstract: "It is well-documented that many mortgage borrowers make sub-optimal financial decisions by failing to refinance when interest rates are low, despite large potential savings. This paper studies the effectiveness of TV advertising on mortgage refinancing decisions. Using six years of mortgage origination and advertising data, we quantify the impact of TV advertising on consumers' decisions to refinance their mortgages, as well as their choice of lenders. We find that TV advertising significantly increases the category-level demand for refinancing (i.e., market expansion effect) and influences the choice of lenders (i.e., business stealing effect). Interestingly, advertising can also benefit competing lenders through the market expansion effect. Beyond the analysis of ad quantity, we investigate the heterogeneous effects of ad content by leveraging zero-shot classification with a pre-trained large language model. We find that ads that highlight low mortgage rates and potential savings are the most effective in increasing both the category and brand-level demand. For policymakers and mortgage lenders, our findings suggest that advertising can be an effective tool to promote refinancing activities and offer practical guidance for designing advertising content."
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -41,7 +40,7 @@ featured: false
 #   icon: twitter
 links:
 - name: "SSRN"
-  url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4856490'
+  url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4782878'
 url_code:
 url_dataset:
 url_poster:

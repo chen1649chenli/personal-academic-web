@@ -1,19 +1,16 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Estimating Treatment Effects under Recommender Interference: A Structured Neural Networks Approach."
+title: "The Effects of TV Advertising and Ad Content on Consumer Financial Decisions: Evidence from Mortgage Refinancing."
 authors: 
-  - Ruohan Zhan
-  - Shichao Han
-  - Yuchen Hu
   - Admin
-
+  - Donggwan Kim
 date: ""
 show_date: false
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 1111-01-02
+publishDate: 1110-01-01
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -22,15 +19,15 @@ publishDate: 1111-01-02
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: ''
+publication:
 publication_short: ""
 
-abstract: "Recommender systems are essential for content-sharing platforms by curating personalized content. To evaluate updates to recommender systems targeting content creators, platforms frequently rely on creator-side randomized experiments. The treatment effect measures the change in outcomes when a new algorithm is implemented compared to the status quo. We show that the standard difference-in-means estimator can lead to biased estimates due to recommender interference that arises when treated and control creators compete for exposure. We propose a "recommender choice model" that describes which item gets exposed from a pool containing both treated and control items. By combining a structural choice model with neural networks, this framework directly models the interference pathway while accounting for rich viewer-content heterogeneity. We construct a debiased estimator of the treatment effect and prove it is n‾√-consistent and asymptotically normal with potentially correlated samples. We validate our estimator's empirical performance with a field experiment on Weixin short-video platform. In addition to the standard creator-side experiment, we conduct a costly double-sided randomization design to obtain a benchmark estimate free from interference bias. We show that the proposed estimator yields results comparable to the benchmark, whereas the standard difference-in-means estimator can exhibit significant bias and even produce reversed signs."
+abstract: "It is well-documented that many mortgage borrowers make sub-optimal financial decisions by failing to refinance when interest rates are low, despite large potential savings. This paper studies the effectiveness of TV advertising on mortgage refinancing decisions. Using six years of mortgage origination and advertising data, we quantify the impact of TV advertising on consumers' decisions to refinance their mortgages, as well as their choice of lenders. We find that TV advertising significantly increases the category-level demand for refinancing (i.e., market expansion effect) and influences the choice of lenders (i.e., business stealing effect). Interestingly, advertising can also benefit competing lenders through the market expansion effect. Beyond the analysis of ad quantity, we investigate the heterogeneous effects of ad content by leveraging zero-shot classification with a pre-trained large language model. We find that ads that highlight low mortgage rates and potential savings are the most effective in increasing both the category and brand-level demand. For policymakers and mortgage lenders, our findings suggest that advertising can be an effective tool to promote refinancing activities and offer practical guidance for designing advertising content."
 
 # Summary. An optional shortened abstract.
 summary: ""
 
-tags: ["recommender system", "recommender interference", "treatment effect estimation", "online content platforms", "creator-side randomization", "semiparametric choice model", "double/debiased estimation and inference"]
+tags: []
 categories: []
 featured: false
 
@@ -42,8 +39,8 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 links:
-- name: "arXiv"
-  url: 'https://arxiv.org/abs/2406.14380'
+- name: "SSRN"
+  url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4782878'
 url_code:
 url_dataset:
 url_poster:
