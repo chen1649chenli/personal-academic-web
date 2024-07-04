@@ -20,7 +20,7 @@ publishDate: 1111-01-03
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication:
+publication: ''
 publication_short: ""
 
 abstract: "We explore pre-training estimators for structural econometric models. The estimator is "pre-trained" in the sense that most computations and effort occur once during its construction. Subsequent applications of it to estimate different datasets require little computation costs or effort. The estimation relies on a neural net to recognize structural model's parameter from data patterns. This paper focuses on a sequential search model that is known to be hard to estimate. We evaluate our pre-trained estimator on 11 real datasets. The estimation takes seconds to run and shows high accuracy. We provide it at pnnehome.github.io. More generally, pre-trained estimators make structural models more accessible and easier to apply. They can also facilitate privacy-preserving estimation because they need only aggregate data patterns."
