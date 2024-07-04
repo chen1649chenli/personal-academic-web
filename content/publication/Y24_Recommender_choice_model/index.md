@@ -30,7 +30,7 @@ abstract: "Recommender systems are essential for content-sharing platforms by cu
 # Summary. An optional shortened abstract.
 summary: ""
 
-tags: []
+tags: ["recommender system", "recommender interference", "treatment effect estimation", "online content platforms", "creator-side randomization", "semiparametric choice model", "double/debiased estimation and inference"]
 categories: []
 featured: false
 
@@ -42,8 +42,8 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 links:
-- name: "SSRN"
-  url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4521178'
+- name: "arXiv"
+  url: 'https://arxiv.org/abs/2406.14380'
 url_code:
 url_dataset:
 url_poster:
