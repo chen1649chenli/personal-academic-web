@@ -39,7 +39,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 links:
-- name: "ssrn"
+- name: "SSRN"
   url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4782878'
 url_code:
 url_dataset:
