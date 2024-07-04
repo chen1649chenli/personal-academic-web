@@ -27,7 +27,7 @@ abstract: "It is well-documented that many mortgage borrowers make sub-optimal f
 # Summary. An optional shortened abstract.
 summary: ""
 
-tags: ["TV advertising", "mortgage refinance", "advertising content", "LLM"]
+tags: ["recommender system", "recommender interference", "treatment effect estimation", "online content platforms", "creator-side randomization", "semiparametric choice model", "double/debiased estimation and inference"]
 categories: []
 featured: false
 
@@ -39,8 +39,8 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 links:
-- name: "SSRN"
-  url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4782878'
+- name: "arXiv"
+  url: 'https://arxiv.org/abs/2406.14380'
 url_code:
 url_dataset:
 url_poster:
