@@ -26,6 +26,8 @@ url_video:
 links:
 - name: 'Abstract'
   url: publication/bargaining-model-paper/index.html 
+- name: 'Finalist - Frank M. Bass Dissertation Paper Award'
+  url: https://connect.informs.org/isms/awards/frank-m-bass-dissertation-paper-award
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
