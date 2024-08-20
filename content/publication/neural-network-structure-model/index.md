@@ -8,7 +8,7 @@ authors:
 
 date: ""
 show_date: false
-doi: ""
+doi: "https://doi.org/10.1287/mksc.2022.0360"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2024-04-22T01:39:57.795469Z'
@@ -40,8 +40,6 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 links:
-- name: "SSRN"
-  url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3496098#'
 url_code: https://github.com/nnehome/nne-matlab-code
 url_dataset:
 url_poster:
