@@ -26,9 +26,9 @@ contact_links:
   - icon: map-marker-alt
     icon_pack: fas
     name: 747 Jon M. Huntsman Hall, 3730 Walnut Street, Philadelphia, PA 19104
-  - icon: twitter
+  - icon: x-twitter
     icon_pack: fab
-    name: Talk with me on Twitter
+    name: Talk with me on X
     link: 'https://twitter.com/zhenlingj'
 
 # Site header
@@ -83,6 +83,7 @@ copyright_license:
   notice: 'This work is licensed under {license}'
 abstract_length: 135
 plugins_js: []
+plugins_css: ["custom"]
 avatar:
   gravatar: false
   shape: circle
@@ -132,3 +133,9 @@ cms:
 icon:
   pack:
     ai: true
+
+# Footer
+footer:
+  copyright:
+    notice: '© {year} Zhenling Jiang'
+  text: ''

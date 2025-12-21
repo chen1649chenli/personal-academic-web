@@ -4,9 +4,9 @@
 [[buttons]]
   id = "twitter"
   url = "https://twitter.com/intent/tweet?url={url}&text={title}"
-  title = "Twitter"
+  title = "X"
   icon_pack = "fab"
-  icon = "twitter"
+  icon = "x-twitter"
   enable = true
 
 [[buttons]]
