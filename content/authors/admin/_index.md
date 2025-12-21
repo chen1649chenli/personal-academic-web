@@ -14,7 +14,7 @@ role: Assistant Professor of Marketing
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name:   
+- name: The Wharton School
   url: https://marketing.wharton.upenn.edu/profile/zhenling
 
 
