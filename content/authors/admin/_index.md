@@ -23,9 +23,9 @@ bio:
 
 # Interests to show in About widget
 interests:
-- Consumer Financial Market
-- Consumer Search for Information
-- Loyalty Program
+- Integrating Machine Learning with Econometric Models
+- Consumer Financial Markets and Lending
+- Market Intervention for Equity and Inclusion
 
 # Education to show in About widget
 education:
