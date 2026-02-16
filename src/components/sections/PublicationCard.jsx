@@ -62,7 +62,13 @@ export default function PublicationCard({ pub, view }) {
         />
         {year && <span className="pub-year"> ({year}).</span>}
         {' '}
-        <span className="pub-title-link">&ldquo;{pub.title}&rdquo;</span>
+        {pub.doi ? (
+          <a className="pub-title-link" href={pub.doi} target="_blank" rel="noopener noreferrer">
+            &ldquo;{pub.title}&rdquo;
+          </a>
+        ) : (
+          <span className="pub-title-link">&ldquo;{pub.title}&rdquo;</span>
+        )}
         {pub.publication && (
           <>
             {' '}
@@ -73,14 +79,7 @@ export default function PublicationCard({ pub, view }) {
           </>
         )}
         {'. '}
-        {pub.doi && (
-          <span className="pub-doi">
-            <a href={pub.doi} target="_blank" rel="noopener noreferrer">
-              {pub.doi}
-            </a>
-          </span>
-        )}
-        <span className="pub-links">
+        <div className="pub-links">
           {pub.abstract && (
             <button
               className="abstract-toggle"
@@ -90,7 +89,7 @@ export default function PublicationCard({ pub, view }) {
             </button>
           )}
           {renderLinks(pub).filter((l) => l.key !== 'doi')}
-        </span>
+        </div>
         {showAbstract && pub.abstract && (
           <div className="pub-abstract">{pub.abstract}</div>
         )}

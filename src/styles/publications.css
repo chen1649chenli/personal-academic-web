@@ -26,7 +26,11 @@
 }
 
 .pub-card-citation .pub-title-link {
-  color: var(--color-text);
+  color: var(--color-primary);
+}
+
+.pub-card-citation .pub-title-link:hover {
+  color: var(--color-primary-dark);
 }
 
 .pub-card-citation .pub-venue {
@@ -42,11 +46,13 @@
 }
 
 .pub-card-citation .pub-links {
-  display: inline;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.4rem;
 }
 
 .pub-card-citation .pub-links a {
-  margin-left: 0.5rem;
   font-size: 0.85rem;
   font-weight: 500;
   padding: 0.15rem 0.5rem;
