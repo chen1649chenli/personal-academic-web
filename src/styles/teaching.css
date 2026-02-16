@@ -1,0 +1,56 @@
+.teaching-timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.teaching-timeline::before {
+  content: '';
+  position: absolute;
+  left: 0.5rem;
+  top: 0.5rem;
+  bottom: 0.5rem;
+  width: 2px;
+  background: var(--color-border);
+}
+
+.teaching-item {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-left: 1rem;
+}
+
+.teaching-item::before {
+  content: '';
+  position: absolute;
+  left: -1.75rem;
+  top: 0.5rem;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--color-primary);
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 2px var(--color-primary);
+}
+
+.teaching-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.teaching-institution {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  margin-bottom: 0.15rem;
+}
+
+.teaching-level {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+}
+
+.teaching-date {
+  font-size: 0.8rem;
+  color: var(--color-text-secondary);
+  margin-top: 0.25rem;
+}

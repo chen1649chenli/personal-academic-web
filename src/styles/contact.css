@@ -1,0 +1,29 @@
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+  font-size: 0.95rem;
+}
+
+.contact-item i {
+  color: var(--color-primary);
+  font-size: 1.1rem;
+  margin-top: 0.15rem;
+  width: 1.5rem;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.contact-item a {
+  color: var(--color-link);
+}
+
+.contact-item a:hover {
+  color: var(--color-link-hover);
+}

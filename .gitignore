@@ -1,8 +1,14 @@
 # IDEs
 .idea/
 
-# Hugo
-/resources/
-public/
-jsconfig.json
+# Dependencies
 node_modules/
+
+# Build output
+dist/
+
+# OS
+.DS_Store
+
+# Misc
+jsconfig.json
