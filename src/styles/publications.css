@@ -33,6 +33,10 @@
   color: var(--color-text);
 }
 
+.pub-card-citation .pub-venue em {
+  font-weight: 700;
+}
+
 .pub-card-citation .pub-doi a {
   word-break: break-all;
 }
