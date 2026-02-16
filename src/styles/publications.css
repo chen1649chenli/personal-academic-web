@@ -14,7 +14,7 @@
 .pub-card-citation {
   margin-bottom: 1.25rem;
   line-height: 1.6;
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 
 .pub-card-citation .pub-authors {
@@ -47,15 +47,17 @@
 
 .pub-card-citation .pub-links {
   display: flex;
+  align-items: center;
   gap: 0.5rem;
   flex-wrap: wrap;
   margin-top: 0.4rem;
 }
 
 .pub-card-citation .pub-links a {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 500;
   padding: 0.15rem 0.5rem;
+  line-height: 1.4;
   border: 1px solid var(--color-primary);
   border-radius: 3px;
   color: var(--color-primary);
@@ -73,7 +75,7 @@
 }
 
 .pub-card-list .pub-title {
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1rem;
   margin-bottom: 0.25rem;
 }
@@ -93,6 +95,7 @@
 
 .pub-card-list .pub-links {
   display: flex;
+  align-items: center;
   gap: 0.5rem;
   flex-wrap: wrap;
   margin-top: 0.35rem;
@@ -102,6 +105,7 @@
   font-size: 0.8rem;
   font-weight: 500;
   padding: 0.15rem 0.5rem;
+  line-height: 1.4;
   border: 1px solid var(--color-primary);
   border-radius: 3px;
   color: var(--color-primary);
@@ -127,7 +131,9 @@
   cursor: pointer;
   font-size: 0.8rem;
   font-weight: 500;
+  font-family: inherit;
   padding: 0.15rem 0.5rem;
+  line-height: 1.4;
   transition: background-color 0.2s, color 0.2s;
 }
 
@@ -141,7 +147,7 @@
   padding: 1rem;
   background: var(--color-bg-alt);
   border-left: 3px solid var(--color-primary);
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.6;
   color: var(--color-text-secondary);
 }

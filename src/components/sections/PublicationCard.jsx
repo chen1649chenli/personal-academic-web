@@ -98,9 +98,16 @@ export default function PublicationCard({ pub, view }) {
   }
 
   // List view
+  const titleUrl = pub.doi || (pub.links && pub.links.length > 0 ? pub.links[0].url : null)
   return (
     <div className="pub-card-list">
-      <div className="pub-title">{pub.title}</div>
+      <div className="pub-title">
+        {titleUrl ? (
+          <a href={titleUrl} target="_blank" rel="noopener noreferrer">{pub.title}</a>
+        ) : (
+          pub.title
+        )}
+      </div>
       <div
         className="pub-authors"
         dangerouslySetInnerHTML={{ __html: highlightAuthor(pub.authors) }}

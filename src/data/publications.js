@@ -201,6 +201,7 @@ export const publications = [
     date: '2024-06-18',
     publicationType: '10',
     publication: '<em>Harvard Business Review</em>',
+    doi: 'https://hbr.org/2024/06/research-customer-referrals-are-contagious',
     abstract:
       'New research reveals the surprising power of "referral contagion," where referred customers not only buy more but also refer 30-57% more new customers than others. This phenomenon, observed across industries, is driven by social factors like the perception of referring as appropriate and the tendency to befriend similar people. A simple experiment, reminding referred customers of their referral origin, increased successful referrals by 21%, highlighting the potential for leveraging referral psychology to boost program effectiveness. These findings call for businesses to re-evaluate their investment in referral programs, considering the amplified potential of referred customers. While some risks exist, such as the spread of negative perceptions, they can be mitigated with a balanced marketing approach.',
     links: [
