@@ -122,22 +122,26 @@ export const publications = [
 
   // ── Working Papers (type 3) ──
   {
-    id: 'promote-mortgage-refinancing',
-    title:
-      'The Effects of TV Advertising and Ad Content on Consumer Financial Decisions: Evidence from Mortgage Refinancing.',
-    authors: 'Zhenling Jiang, Donggwan Kim',
+    id: 'voice-consumer-preferences',
+    title: 'Using Voice to Measure and Predict Consumer Preferences.',
+    authors: 'Max Gaerth, Hauke Roggenkamp, Christian Hildebrand, Zhenling Jiang',
     date: '',
-    publishDate: '1110-01-01',
+    publishDate: '1116-01-06',
     publicationType: '3',
-    publication: '',
-    abstract:
-      'It is well-documented that many mortgage borrowers make sub-optimal financial decisions by failing to refinance when interest rates are low, despite large potential savings. This paper studies the effectiveness of TV advertising on mortgage refinancing decisions. Using six years of mortgage origination and advertising data, we quantify the impact of TV advertising on consumers\' decisions to refinance their mortgages, as well as their choice of lenders. We find that TV advertising significantly increases the category-level demand for refinancing (i.e., market expansion effect) and influences the choice of lenders (i.e., business stealing effect). Interestingly, advertising can also benefit competing lenders through the market expansion effect. Beyond the analysis of ad quantity, we investigate the heterogeneous effects of ad content by leveraging zero-shot classification with a pre-trained large language model. We find that ads that highlight low mortgage rates and potential savings are the most effective in increasing both the category and brand-level demand. For policymakers and mortgage lenders, our findings suggest that advertising can be an effective tool to promote refinancing activities and offer practical guidance for designing advertising content.',
-    links: [
-      {
-        name: 'SSRN',
-        url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4782878',
-      },
-    ],
+    publication: 'Major revision at <em>Journal of Marketing Research</em>',
+    abstract: '',
+    links: [],
+  },
+  {
+    id: 'causal-representation-learning',
+    title: 'A Causal Approach to Representation Learning for Unstructured Data.',
+    authors: 'Sikun Xu, Zhenling Jiang, Zhengling Qi, Dennis Zhang',
+    date: '',
+    publishDate: '1116-01-05',
+    publicationType: '3',
+    publication: 'Major revision at <em>Management Science</em>',
+    abstract: '',
+    links: [],
   },
   {
     id: 'recommender-choice-model',
@@ -145,9 +149,9 @@ export const publications = [
       'Estimating Treatment Effects under Recommender Interference: A Structured Neural Networks Approach.',
     authors: 'Ruohan Zhan, Shichao Han, Yuchen Hu, Zhenling Jiang',
     date: '',
-    publishDate: '1110-01-02',
+    publishDate: '1116-01-04',
     publicationType: '3',
-    publication: 'Major revision at <em>Management Science</em>',
+    publication: 'Under review at <em>Marketing Science</em>',
     abstract:
       'Recommender systems are essential for content-sharing platforms by curating personalized content. To evaluate updates to recommender systems targeting content creators, platforms frequently rely on creator-side randomized experiments. The treatment effect measures the change in outcomes when a new algorithm is implemented compared to the status quo. We show that the standard difference-in-means estimator can lead to biased estimates due to recommender interference that arises when treated and control creators compete for exposure. We propose a \'recommender choice model\' that describes which item gets exposed from a pool containing both treated and control items. By combining a structural choice model with neural networks, this framework directly models the interference pathway while accounting for rich viewer-content heterogeneity. We construct a debiased estimator of the treatment effect and prove it is n‾√-consistent and asymptotically normal with potentially correlated samples. We validate our estimator\'s empirical performance with a field experiment on Weixin short-video platform. In addition to the standard creator-side experiment, we conduct a costly double-sided randomization design to obtain a benchmark estimate free from interference bias. We show that the proposed estimator yields results comparable to the benchmark, whereas the standard difference-in-means estimator can exhibit significant bias and even produce reversed signs.',
     links: [
@@ -159,12 +163,12 @@ export const publications = [
   },
   {
     id: 'pretrained-nne',
-    title: 'A Pre-Trained Estimator for Consumer Search Model.',
-    authors: "Yanhao 'Max' Wei, Zhenling Jiang",
+    title: 'Pre-Training Estimators for Structural Models: Application to Consumer Search.',
+    authors: 'Max Wei, Zhenling Jiang',
     date: '',
-    publishDate: '1110-01-03',
+    publishDate: '1116-01-03',
     publicationType: '3',
-    publication: '',
+    publication: 'Under review at <em>Review of Economics and Statistics</em>',
     abstract:
       "We explore pre-training estimators for structural econometric models. The estimator is 'pre-trained' in the sense that most computations and effort occur once during its construction. Subsequent applications of it to estimate different datasets require little computation costs or effort. The estimation relies on a neural net to recognize structural model's parameter from data patterns. This paper focuses on a sequential search model that is known to be hard to estimate. We evaluate our pre-trained estimator on 11 real datasets. The estimation takes seconds to run and shows high accuracy. We provide it at pnnehome.github.io. More generally, pre-trained estimators make structural models more accessible and easier to apply. They can also facilitate privacy-preserving estimation because they need only aggregate data patterns.",
     links: [
@@ -180,15 +184,33 @@ export const publications = [
       'TV Advertising Effectiveness with Racial Minority Representation: Evidence from the Mortgage Market.',
     authors: 'Donggwan Kim, Zhenling Jiang, Raphael Thomadsen',
     date: '',
-    publishDate: '1111-01-00',
+    publishDate: '1116-01-02',
     publicationType: '3',
-    publication: 'Major revision at <em>Management Science</em>',
+    publication: '',
     abstract:
       'This paper examines the impact of racial minority representation on advertising effectiveness. We do this by first assembling data on 10 million mortgage refinance loans, along with data on TV advertisements for mortgage refinance. We construct a measure of minority representation from video ads using computer vision techniques, and extract additional video and transcript features from the advertisements using a variational autoencoder and a text embedding model. We then apply a Double Machine Learning model to estimate how the minority representation in ads affects which lender consumers choose for their refinancing, while controlling for high-dimensional image and text features, as well as a rich set of fixed effects. We find that ads with higher minority representation are more effective in driving consumer choices: as the minority share in ads increases from 15% to 25%, the advertising elasticity increases from 0.037 to 0.042 (a relative increase of 14%). This effect is more pronounced among minority borrowers but is also positive among White borrowers. Across the political spectrum, minority representation has a larger impact among liberal-leaning consumers. In addition to our observational study, we conduct a pre-registered lab experiment (N=2,796) where we manipulate the race of the actors using generative AI technology. The results are consistent with those from our observational study, providing further causal evidence for our findings. We discuss potential mechanisms driving these results, as well as the implications of our findings.',
     links: [
       {
         name: 'SSRN',
         url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4521178',
+      },
+    ],
+  },
+  {
+    id: 'refinancing-advertising-monetary-policy',
+    title:
+      'Refinancing Advertising, Inequality, and the Last Mile of Monetary Policy.',
+    authors: 'Zhenling Jiang, Donggwan Kim, Yesim Orhun',
+    date: '',
+    publishDate: '1116-01-01',
+    publicationType: '3',
+    publication: '',
+    abstract:
+      'It is well-documented that many mortgage borrowers make sub-optimal financial decisions by failing to refinance when interest rates are low, despite large potential savings. This paper studies the effectiveness of TV advertising on mortgage refinancing decisions. Using six years of mortgage origination and advertising data, we quantify the impact of TV advertising on consumers\' decisions to refinance their mortgages, as well as their choice of lenders. We find that TV advertising significantly increases the category-level demand for refinancing (i.e., market expansion effect) and influences the choice of lenders (i.e., business stealing effect). Interestingly, advertising can also benefit competing lenders through the market expansion effect. Beyond the analysis of ad quantity, we investigate the heterogeneous effects of ad content by leveraging zero-shot classification with a pre-trained large language model. We find that ads that highlight low mortgage rates and potential savings are the most effective in increasing both the category and brand-level demand. For policymakers and mortgage lenders, our findings suggest that advertising can be an effective tool to promote refinancing activities and offer practical guidance for designing advertising content.',
+    links: [
+      {
+        name: 'SSRN',
+        url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4782878',
       },
     ],
   },
