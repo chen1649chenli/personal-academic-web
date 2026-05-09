@@ -1,12 +1,12 @@
 export const author = {
   name: 'Zhenling Jiang',
-  role: 'Assistant Professor of Marketing',
+  role: 'Associate Professor of Marketing',
   organization: {
     name: 'The Wharton School',
     url: 'https://marketing.wharton.upenn.edu/profile/zhenling',
   },
   email: 'zhenling@wharton.upenn.edu',
-  bio: `<strong>Zhenling Jiang</strong> is an Assistant Professor of Marketing at the Wharton School, University of Pennsylvania. Her research program bridges substantive inquiries into <strong>consumer financial markets</strong> with methodological innovations that integrate <strong>machine learning and econometrics</strong>. She specifically investigates how market frictions—such as behavioral biases, information asymmetry, and intermediary incentives—shape outcomes in high-stakes sectors like auto loans and mortgages. These real-world challenges drive her to develop <strong>scalable empirical tools</strong>, including neural network estimators, that can process unstructured data while maintaining the essential ability to simulate policy counterfactuals. Ultimately, her work seeks to promote <strong>market efficiency and financial equity</strong> by providing a more rigorous understanding of modern market dynamics.`,
+  bio: `<strong>Zhenling Jiang</strong> is an Associate Professor of Marketing at the Wharton School of the University of Pennsylvania, with tenure effective July 2026. Her research program bridges substantive inquiries into <strong>consumer financial markets</strong> with methodological innovations that integrate <strong>machine learning and econometrics</strong>. She specifically investigates how market frictions—such as behavioral biases, information asymmetry, and intermediary incentives—shape outcomes in high-stakes sectors like auto loans and mortgages. These real-world challenges drive her to develop <strong>scalable empirical tools</strong>, including neural network estimators, that can process unstructured data while maintaining the essential ability to simulate policy counterfactuals. Ultimately, her work seeks to promote <strong>market efficiency and financial equity</strong> by providing a more rigorous understanding of modern market dynamics.`,
   interests: [
     'Integrating Machine Learning with Econometric Models',
     'Consumer Financial Markets and Lending',
