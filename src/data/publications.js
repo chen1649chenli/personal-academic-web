@@ -129,7 +129,8 @@ export const publications = [
     publishDate: '1116-01-06',
     publicationType: '3',
     publication: 'Major revision at <em>Journal of Marketing Research</em>',
-    abstract: '',
+    abstract:
+      'Consumers increasingly make purchase decisions through voice-enabled technologies, from shopping via smart speakers at home to AI-powered ordering kiosks at fast-food restaurants. In these interactions, consumers not only communicate their choices through what they say but also through how they say it. The current work reveals that so-called vocal paralinguistic cues, such as a person’s vocal tone and intonation, provide an unexplored window into consumers’ underlying states at the moment of a decision. Using gradient-boosted decision trees, we introduce Voice-Inferred Preference Strength (VIPS) and demonstrate that vocal paralinguistic cues reliably predict consumers’ preference strength and behaviorally relevant outcomes. We further demonstrate that the approach generalizes across a wide array of choice settings (from product preferences to beauty ratings). This research provides firms with a novel lens into consumers’ preferences and decision states at the point of purchase. We also make our model publicly available for interested researchers and provide a dedicated Shiny app to use the model as a feature-extraction tool. We conclude by highlighting the theoretical and practical implications of our findings in an increasingly voice-first marketplace.',
     links: [],
   },
   {
@@ -140,8 +141,14 @@ export const publications = [
     publishDate: '1116-01-05',
     publicationType: '3',
     publication: 'Major revision at <em>Management Science</em>',
-    abstract: '',
-    links: [],
+    abstract:
+      'The increasing availability of unstructured data (e.g., images) in business and economics research has created new opportunities to control for confounders. A common approach is embedding-then-inference, where unstructured data is compressed into low-dimensional embeddings and incorporated into causal models. However, we show that this method can introduce significant bias because representation learning models optimized for reconstruction may miss relevant confounders. To address this, we propose causal embeddings, which explicitly align the objective of representation learning with the causal task by jointly predicting both treatment and outcome variables. This approach captures confounding information while maintaining low-dimensional efficiency and accommodates various embedding methods, including fine-tuned pretrained models. Simulations demonstrate that causal embeddings outperform both embedding-then-inference and direct adjustment with DML in subsequent causal inference tasks. A real-world application further highlights the practical importance of properly accounting for unstructured data in causal models.',
+    links: [
+      {
+        name: 'SSRN',
+        url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5309826',
+      },
+    ],
   },
   {
     id: 'recommender-choice-model',
@@ -205,14 +212,6 @@ export const publications = [
     publishDate: '1116-01-01',
     publicationType: '3',
     publication: '',
-    abstract:
-      'It is well-documented that many mortgage borrowers make sub-optimal financial decisions by failing to refinance when interest rates are low, despite large potential savings. This paper studies the effectiveness of TV advertising on mortgage refinancing decisions. Using six years of mortgage origination and advertising data, we quantify the impact of TV advertising on consumers\' decisions to refinance their mortgages, as well as their choice of lenders. We find that TV advertising significantly increases the category-level demand for refinancing (i.e., market expansion effect) and influences the choice of lenders (i.e., business stealing effect). Interestingly, advertising can also benefit competing lenders through the market expansion effect. Beyond the analysis of ad quantity, we investigate the heterogeneous effects of ad content by leveraging zero-shot classification with a pre-trained large language model. We find that ads that highlight low mortgage rates and potential savings are the most effective in increasing both the category and brand-level demand. For policymakers and mortgage lenders, our findings suggest that advertising can be an effective tool to promote refinancing activities and offer practical guidance for designing advertising content.',
-    links: [
-      {
-        name: 'SSRN',
-        url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4782878',
-      },
-    ],
   },
 
   // ── Other Articles (type 10) ──
