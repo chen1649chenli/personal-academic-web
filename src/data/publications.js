@@ -235,12 +235,22 @@ export const publications = [
 
   // ── Work in Progress (type 9) ──
   {
-    id: 'ml-prediction-error',
-    title: 'Machine Learning and Prediction Errors in Causal Inference.',
-    authors:
-      'with Gad Allon, Daniel Chen, Dennis Zhang',
+    id: 'identification-deep-learning',
+    title: 'Estimating and Assessing Identification in Structural Models via Deep Learning.',
+    authors: 'with Max Wei',
     date: '',
     publishDate: '1111-01-02',
+    publicationType: '9',
+    publication: '',
+    abstract: '',
+    links: [],
+  },
+  {
+    id: 'neural-network-iv',
+    title: 'Neural Network Estimation with Instrumental Variables.',
+    authors: 'with Raelynn Li, Max Wei',
+    date: '',
+    publishDate: '1111-01-01',
     publicationType: '9',
     publication: '',
     abstract: '',
