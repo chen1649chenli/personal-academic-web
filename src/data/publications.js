@@ -122,6 +122,23 @@ export const publications = [
 
   // ── Working Papers (type 3) ──
   {
+    id: 'identification-deep-learning',
+    title: 'Estimating and Assessing Identification of Structural Models via Deep Learning',
+    authors: 'Yanhao "Max" Wei, Zhenling Jiang',
+    date: '',
+    publishDate: '1116-01-07',
+    publicationType: '3',
+    publication: '',
+    abstract:
+      'We study using neural nets to process an entire dataset and produce an estimate for a structural econometric model (e.g., discrete choice, consumer search). To make training feasible, the neural net uses an architecture that exploits the i.i.d. structure common in empirical data. We show that with sufficient training on simulated datasets, this neural net converges to the full-information posterior. The approach allows accurate, full-information estimation for models where likelihood simulation is impractical or challenging. It also provides a practical tool to assess the empirical identification of a structural model. We apply it to a sequential search model with unobserved consumer heterogeneity.',
+    links: [
+      {
+        name: 'SSRN',
+        url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6774178',
+      },
+    ],
+  },
+  {
     id: 'voice-consumer-preferences',
     title: 'Using Voice to Measure and Predict Consumer Preferences.',
     authors: 'Max Gaerth, Hauke Roggenkamp, Christian Hildebrand, Zhenling Jiang',
@@ -182,23 +199,6 @@ export const publications = [
       {
         name: 'SSRN',
         url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4856490',
-      },
-    ],
-  },
-  {
-    id: 'identification-deep-learning',
-    title: 'Estimating and Assessing Identification of Structural Models via Deep Learning',
-    authors: 'Yanhao "Max" Wei, Zhenling Jiang',
-    date: '',
-    publishDate: '1116-01-025',
-    publicationType: '3',
-    publication: '',
-    abstract:
-      'We study using neural nets to process an entire dataset and produce an estimate for a structural econometric model (e.g., discrete choice, consumer search). To make training feasible, the neural net uses an architecture that exploits the i.i.d. structure common in empirical data. We show that with sufficient training on simulated datasets, this neural net converges to the full-information posterior. The approach allows accurate, full-information estimation for models where likelihood simulation is impractical or challenging. It also provides a practical tool to assess the empirical identification of a structural model. We apply it to a sequential search model with unobserved consumer heterogeneity.',
-    links: [
-      {
-        name: 'SSRN',
-        url: 'https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6774178',
       },
     ],
   },
